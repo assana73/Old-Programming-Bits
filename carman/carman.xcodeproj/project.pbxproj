@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35C9E55E13DE19B80019B4A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C9E55D13DE19B80019B4A7 /* UIKit.framework */; };
+		35C9E56013DE19B80019B4A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C9E55F13DE19B80019B4A7 /* Foundation.framework */; };
+		35C9E56213DE19B80019B4A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C9E56113DE19B80019B4A7 /* CoreGraphics.framework */; };
+		35C9E56813DE19B80019B4A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35C9E56613DE19B80019B4A7 /* InfoPlist.strings */; };
+		35C9E56A13DE19B80019B4A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C9E56913DE19B80019B4A7 /* main.m */; };
+		35C9E56E13DE19B80019B4A7 /* carmanAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C9E56D13DE19B80019B4A7 /* carmanAppDelegate.m */; };
+		35C9E57213DE19B80019B4A7 /* carmanAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C9E57113DE19B80019B4A7 /* carmanAppDelegate_iPhone.m */; };
+		35C9E57513DE19B80019B4A7 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35C9E57313DE19B80019B4A7 /* MainWindow_iPhone.xib */; };
+		35C9E57913DE19B80019B4A7 /* carmanAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C9E57813DE19B80019B4A7 /* carmanAppDelegate_iPad.m */; };
+		35C9E57C13DE19B80019B4A7 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35C9E57A13DE19B80019B4A7 /* MainWindow_iPad.xib */; };
+		35C9E58413DE1A520019B4A7 /* car.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C9E58313DE1A520019B4A7 /* car.m */; };
+		35C9E58713DE1E2C0019B4A7 /* sedan.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C9E58613DE1E2C0019B4A7 /* sedan.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35C9E55913DE19B80019B4A7 /* carman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C9E55D13DE19B80019B4A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		35C9E55F13DE19B80019B4A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		35C9E56113DE19B80019B4A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		35C9E56513DE19B80019B4A7 /* carman-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "carman-Info.plist"; sourceTree = "<group>"; };
+		35C9E56713DE19B80019B4A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		35C9E56913DE19B80019B4A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35C9E56B13DE19B80019B4A7 /* carman-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "carman-Prefix.pch"; sourceTree = "<group>"; };
+		35C9E56C13DE19B80019B4A7 /* carmanAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = carmanAppDelegate.h; sourceTree = "<group>"; };
+		35C9E56D13DE19B80019B4A7 /* carmanAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = carmanAppDelegate.m; sourceTree = "<group>"; };
+		35C9E57013DE19B80019B4A7 /* carmanAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = carmanAppDelegate_iPhone.h; path = iPhone/carmanAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		35C9E57113DE19B80019B4A7 /* carmanAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = carmanAppDelegate_iPhone.m; path = iPhone/carmanAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		35C9E57413DE19B80019B4A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		35C9E57713DE19B80019B4A7 /* carmanAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = carmanAppDelegate_iPad.h; path = iPad/carmanAppDelegate_iPad.h; sourceTree = "<group>"; };
+		35C9E57813DE19B80019B4A7 /* carmanAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = carmanAppDelegate_iPad.m; path = iPad/carmanAppDelegate_iPad.m; sourceTree = "<group>"; };
+		35C9E57B13DE19B80019B4A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		35C9E58213DE1A520019B4A7 /* car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = car.h; sourceTree = "<group>"; };
+		35C9E58313DE1A520019B4A7 /* car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = car.m; sourceTree = "<group>"; };
+		35C9E58513DE1E2C0019B4A7 /* sedan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sedan.h; sourceTree = "<group>"; };
+		35C9E58613DE1E2C0019B4A7 /* sedan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sedan.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35C9E55613DE19B80019B4A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C9E55E13DE19B80019B4A7 /* UIKit.framework in Frameworks */,
+				35C9E56013DE19B80019B4A7 /* Foundation.framework in Frameworks */,
+				35C9E56213DE19B80019B4A7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35C9E54E13DE19B80019B4A7 = {
+			isa = PBXGroup;
+			children = (
+				35C9E56313DE19B80019B4A7 /* carman */,
+				35C9E55C13DE19B80019B4A7 /* Frameworks */,
+				35C9E55A13DE19B80019B4A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35C9E55A13DE19B80019B4A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35C9E55913DE19B80019B4A7 /* carman.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35C9E55C13DE19B80019B4A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35C9E55D13DE19B80019B4A7 /* UIKit.framework */,
+				35C9E55F13DE19B80019B4A7 /* Foundation.framework */,
+				35C9E56113DE19B80019B4A7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35C9E56313DE19B80019B4A7 /* carman */ = {
+			isa = PBXGroup;
+			children = (
+				35C9E56C13DE19B80019B4A7 /* carmanAppDelegate.h */,
+				35C9E56D13DE19B80019B4A7 /* carmanAppDelegate.m */,
+				35C9E58513DE1E2C0019B4A7 /* sedan.h */,
+				35C9E58613DE1E2C0019B4A7 /* sedan.m */,
+				35C9E58213DE1A520019B4A7 /* car.h */,
+				35C9E58313DE1A520019B4A7 /* car.m */,
+				35C9E56F13DE19B80019B4A7 /* iPhone */,
+				35C9E57613DE19B80019B4A7 /* iPad */,
+				35C9E56413DE19B80019B4A7 /* Supporting Files */,
+			);
+			path = carman;
+			sourceTree = "<group>";
+		};
+		35C9E56413DE19B80019B4A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35C9E56513DE19B80019B4A7 /* carman-Info.plist */,
+				35C9E56613DE19B80019B4A7 /* InfoPlist.strings */,
+				35C9E56913DE19B80019B4A7 /* main.m */,
+				35C9E56B13DE19B80019B4A7 /* carman-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35C9E56F13DE19B80019B4A7 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				35C9E57013DE19B80019B4A7 /* carmanAppDelegate_iPhone.h */,
+				35C9E57113DE19B80019B4A7 /* carmanAppDelegate_iPhone.m */,
+				35C9E57313DE19B80019B4A7 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		35C9E57613DE19B80019B4A7 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				35C9E57713DE19B80019B4A7 /* carmanAppDelegate_iPad.h */,
+				35C9E57813DE19B80019B4A7 /* carmanAppDelegate_iPad.m */,
+				35C9E57A13DE19B80019B4A7 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35C9E55813DE19B80019B4A7 /* carman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35C9E57F13DE19B80019B4A7 /* Build configuration list for PBXNativeTarget "carman" */;
+			buildPhases = (
+				35C9E55513DE19B80019B4A7 /* Sources */,
+				35C9E55613DE19B80019B4A7 /* Frameworks */,
+				35C9E55713DE19B80019B4A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = carman;
+			productName = carman;
+			productReference = 35C9E55913DE19B80019B4A7 /* carman.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35C9E55013DE19B80019B4A7 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 35C9E55313DE19B80019B4A7 /* Build configuration list for PBXProject "carman" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 35C9E54E13DE19B80019B4A7;
+			productRefGroup = 35C9E55A13DE19B80019B4A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35C9E55813DE19B80019B4A7 /* carman */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35C9E55713DE19B80019B4A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C9E56813DE19B80019B4A7 /* InfoPlist.strings in Resources */,
+				35C9E57513DE19B80019B4A7 /* MainWindow_iPhone.xib in Resources */,
+				35C9E57C13DE19B80019B4A7 /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35C9E55513DE19B80019B4A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C9E56A13DE19B80019B4A7 /* main.m in Sources */,
+				35C9E56E13DE19B80019B4A7 /* carmanAppDelegate.m in Sources */,
+				35C9E57213DE19B80019B4A7 /* carmanAppDelegate_iPhone.m in Sources */,
+				35C9E57913DE19B80019B4A7 /* carmanAppDelegate_iPad.m in Sources */,
+				35C9E58413DE1A520019B4A7 /* car.m in Sources */,
+				35C9E58713DE1E2C0019B4A7 /* sedan.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		35C9E56613DE19B80019B4A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35C9E56713DE19B80019B4A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		35C9E57313DE19B80019B4A7 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35C9E57413DE19B80019B4A7 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		35C9E57A13DE19B80019B4A7 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35C9E57B13DE19B80019B4A7 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35C9E57D13DE19B80019B4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35C9E57E13DE19B80019B4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35C9E58013DE19B80019B4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "carman/carman-Prefix.pch";
+				INFOPLIST_FILE = "carman/carman-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		35C9E58113DE19B80019B4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "carman/carman-Prefix.pch";
+				INFOPLIST_FILE = "carman/carman-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35C9E55313DE19B80019B4A7 /* Build configuration list for PBXProject "carman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C9E57D13DE19B80019B4A7 /* Debug */,
+				35C9E57E13DE19B80019B4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35C9E57F13DE19B80019B4A7 /* Build configuration list for PBXNativeTarget "carman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C9E58013DE19B80019B4A7 /* Debug */,
+				35C9E58113DE19B80019B4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35C9E55013DE19B80019B4A7 /* Project object */;
+}
